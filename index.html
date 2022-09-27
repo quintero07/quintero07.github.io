@@ -5,136 +5,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
-    <!-- Titulo de pagina -->
-    <title>Portfolio</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <!-- Iconos -->
+    <title>Darelis Quintero</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
 </head>
 <body>
-    <!-- HEADER PROFILE -->
-    <header class="profile container ">
-        <!-- theme button -->
+    <header class="profile container">
+        <!-- Dark mode -->
         <i class="ri-moon-line change-theme" id="theme-button"></i>
-
         <div class="profile__container grid">
             <div class="profile__data">
                 <div class="profile__border">
                     <div class="profile__perfil">
-                        <!-- imagen de nuestro portafolio -->
-                        <img src="assets/img/photo.jpeg" alt="Imagen de Perfil">
+                        <img src="/assets/img/photo.jpeg" alt="Photo">
                     </div>
-                 </div>
-                  <h2 class="profile__name">Darelis Quintero</h2>
-                  <h3 class="profile__profession">UX/UI Design</h3>
-
-                  <ul class="profile__social">
-                    <a href="https://www.behance.net/darelisquintero1" class="profile__social-link" target="_blank"><i class="ri-behance-fill"></i></a>
-                    <a href="https://www.linkedin.com/in/darelis-quintero-077088241/" class="profile__social-link" target="_blank"><i class="ri-linkedin-box-line"></i></a>
-                    <a href="https://github.com/quintero07" class="profile__social-link" target="_blank"><i class="ri-github-line"></i></a>
-                  </ul>
+                </div>
+                <!-- Data -->
+                <h2 class="profile__name">Darelis Quintero</h2>
+                <h3 class="profile__profession">UX/UI Design</h3>
+                <!-- Icons -->
+                <ul class="profile__social">
+                    <a href="https://www.behance.net/darelisquintero1" target="_blank" class="profile__social-link">
+                        <i class="ri-behance-fill"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/darelis-quintero-077088241/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/quintero07" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
             </div>
+            <!-- Profile info -->
             <div class="profile__info grid">
                 <div class="profile__info-group">
-                        <h3 class="profile__info-number">26</h3>
-                        <p class="profile__info-description">
-                            Years old
-                        </p>
-                </div> 
+                    <h3 class="profile__info-number">26</h3>
+                    <p class="profile__infor-description">Years old</p>
+                </div>
                 <div class="profile__info-group">
-                        <h3 class="profile__info-number">Buenos Aires</h3>
-                        <p class="profile__info-description">
-                            Argentina
-                        </p>
-                </div> 
+                    <h3 class="profile__info-number">UX/UI</h3>
+                    <p class="profile__infor-description">Design</p>
+                </div>
                 <div class="profile__info-group">
-                        <h3 class="profile__info-number">Design & Web</h3>
-                        <p class="profile__info-description">
-                            Programming
-                        </p>
-                </div> 
+                    <h3 class="profile__info-number">Buenos Aires</h3>
+                    <p class="profile__infor-description">Argentina</p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">Design & Web</h3>
+                    <p class="profile__infor-description">Programming</p>
+                </div>
             </div>
+            <!-- buttons -->
             <div class="profile__buttons">
-                <!-- Insertar CV -->
-                <a download="" href="/assets/pdf/CV DARELIS QUINTERO.pdf" class="button">Download CV<i class="ri-download-line"></i></a>
+                <a href="/assets/pdf/CV Darelis Quintero (Spanish).jpeg" download="" class="button">
+                    Download CV<i class="ri-download-line"></i>
+                </a>
                 <div class="profile__buttons-small">
-                    <a href="https://api.whatsapp.com/send?phone=541130552178&text=Hello, more information!" target="_blank" class="button button__small button__gray"><i class="ri-whatsapp-line"></i></a>
-                    <a href="mailto:darelisq7@gmail.com?subject=Get in touch with me" class="button button__small button__gray" target="_blank"><i class="ri-mail-line"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=541130552178&text=Hello, more information!" class="button button__small button__gray"><i class="ri-whatsapp-line"></i></a>
+                    <a href="mailto:darelisq7@gmail.com?subject=Get in touch with me" class="button button__small button__gray"><i class="ri-mail-line"></i></a>
                 </div>
             </div>
         </div>
     </header>
-    <!-- MAIN -->
     <main class="main">
         <section class="filters container">
-            <!-- FILTERS TABS -->
+            <!-- filter tabs -->
             <ul class="filters__content">
-                <button class="filter__button filter-tab-active" data-target="#projects">
-                    Projects
-                </button>
-                <button class="filter__button" data-target="#skills">
-                    Skills
-                </button>
+                <button class="filters__button filter-tab-active" data-target="#projects">Projects</button>
+                <button class="filters__button" data-target="#skills">Skills</button>
+<!--                 <button class="filters__button" data-target="#certificates">Certificates</button> -->
             </ul>
-            <div class="filters__sections">
-                <!-- PROJECTS -->
+            <div class="filters_section">
+                <!-- Projects -->
                 <div class="projects__content grid filters__active" data-content id="projects">
                     <article class="projects__card">
-                        <img src="assets/img/smartshop2.jpeg" alt="" class="projects__img">
+                        <img src="/assets/img/laCaja.png" alt="projectPhoto" class="projects__img">
                         <div class="projects__modal">
                             <div>
-                                <span class="projects__subtitle">Food App</span>
-                                <h3 class="projects__title">Smart Shop (Prototype)</h3>
-                                <a href="https://www.figma.com/proto/0WI4DyfXEm9pkOLFqy7pKn/Prototipo?node-id=510%3A5232&scaling=min-zoom&page-id=219%3A422&starting-point-node-id=510%3A5232" class="projects__button button button__small" target="_blank"><i class="ri-link"></i></a>         
+                                <span class="projects__subtitle">UX Report</span>
+                                <h3 class="projects__title">La Caja Seguros</h3>
+                                <a href="https://www.figma.com/proto/MtytcLH3Rnk9rshcf6V07n/Caso-Practico-La-Caja?node-id=59%3A139" class="projects__button button button__small" target="_blank">
+                                    <i class="ri-link"></i>
+                                </a>
                             </div>
                         </div>
                     </article>
                     <article class="projects__card">
-                        <img src="assets/img/mockup_tepuy.jpeg" alt="" class="projects__img">
+                        <img src="/assets/img/smartshop2.jpeg" alt="projectPhoto" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Food App</span>
+                                <h3 class="projects__title">Smart Shop (Prototype)</h3>
+                                <a href="https://www.figma.com/proto/0WI4DyfXEm9pkOLFqy7pKn/Prototipo?node-id=510%3A5232&scaling=min-zoom&page-id=219%3A422&starting-point-node-id=510%3A5232" class="projects__button button button__small" target="_blank">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="projects__card">
+                        <img src="/assets/img/mockup_tepuy.jpeg" alt="projectPhoto" class="projects__img">
                         <div class="projects__modal">
                             <div>
                                 <span class="projects__subtitle">E-commerce</span>
                                 <h3 class="projects__title">Tepuy (Prototype)</h3>
                                 <a href="https://www.figma.com/proto/s0fXsPZmlGp6gAyk7UGcF0/Ecommerce-store-app-(Community)?node-id=106%3A259&scaling=scale-down&page-id=106%3A109&starting-point-node-id=106%3A112" class="projects__button button button__small" target="_blank">
                                     <i class="ri-link"></i>
-                                </a>  
+                                </a>
                             </div>
                         </div>
                     </article>
                     <article class="projects__card">
-                        <img src="assets/img/smartshop.jpeg" alt="" class="projects__img">
+                        <img src="/assets/img/smartshop.jpeg" alt="projectPhoto" class="projects__img">
                         <div class="projects__modal">
                             <div>
                                 <span class="projects__subtitle">Food App</span>
                                 <h3 class="projects__title">Smart Shop (Research)</h3>
-                                <a href="https://www.figma.com/proto/V33bBNavrq1DD9lKx1vGqL/Presentaci%C3%B3n-Final?node-id=2%3A19&scaling=min-zoom&page-id=0%3A1" class="projects__button button button__small" target="_blank"><i class="ri-link"></i></a>         
+                                <a href="https://www.figma.com/proto/V33bBNavrq1DD9lKx1vGqL/Presentaci%C3%B3n-Final?node-id=2%3A19&scaling=min-zoom&page-id=0%3A1" class="projects__button button button__small" target="_blank">
+                                    <i class="ri-link"></i>
+                                </a>
                             </div>
                         </div>
                     </article>
                     <article class="projects__card">
-                        <img src="assets/img/logo_tepuy.jpeg" alt="" class="projects__img">
+                        <img src="/assets/img/logo_tepuy.jpeg" alt="projectPhoto" class="projects__img">
                         <div class="projects__modal">
                             <div>
                                 <span class="projects__subtitle">E-commerce</span>
                                 <h3 class="projects__title">Tepuy (Research)</h3>
                                 <a href="https://www.behance.net/gallery/150628279/Presentacion-de-Marca" class="projects__button button button__small" target="_blank">
                                     <i class="ri-link"></i>
-                                </a>  
+                                </a>
                             </div>
                         </div>
                     </article>
                 </div>
-                <!-- SKILLS -->
+                <!-- Skills -->
                 <div class="skills__content grid" data-content id="skills">
                     <div class="skills__area">
-                        <h3 class="skills__title">
-                            UX Designer
-                        </h3>
-
+                        <h3 class="skills__title">UX Designer</h3>
                         <div class="skills__box">
-                            <div class="skills__group"> 
+                            <div class="skills__group">
                                 <div class="skills__data">
                                     <i class="ri-checkbox-circle-line"></i>
                                     <div>
@@ -142,7 +153,6 @@
                                         <span class="skills__level">Intermediate</span>
                                     </div>
                                 </div>
-
                                 <div class="skills__data">
                                     <i class="ri-checkbox-circle-line"></i>
                                     <div>
@@ -150,33 +160,6 @@
                                         <span class="skills__level">Intermediate</span>
                                     </div>
                                 </div>
-
-                                <div class="skills__data">
-                                    <i class="ri-checkbox-circle-line"></i>
-                                    <div>
-                                        <h3 class="skills__name">Design Thinking</h3>
-                                        <span class="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__group"> 
-                                <div class="skills__data">
-                                    <i class="ri-checkbox-circle-line"></i>
-                                    <div>
-                                        <h3 class="skills__name">Wireframes</h3>
-                                        <span class="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class="ri-checkbox-circle-line"></i>
-                                    <div>
-                                        <h3 class="skills__name">Benchmarking</h3>
-                                        <span class="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-
                                 <div class="skills__data">
                                     <i class="ri-checkbox-circle-line"></i>
                                     <div>
@@ -185,13 +168,35 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Design<br>Thinking</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Wireframes</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Benchmarking</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                
                     <div class="skills__area">
                         <h3 class="skills__title">UI Designer</h3>
                         <div class="skills__box">
-                            <div class="skills__group"> 
+                            <div class="skills__group">
                                 <div class="skills__data">
                                     <i class="ri-checkbox-circle-line"></i>
                                     <div>
@@ -214,7 +219,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="skills__group"> 
+                            <div class="skills__group">
                                 <div class="skills__data">
                                     <i class="ri-checkbox-circle-line"></i>
                                     <div>
@@ -240,16 +245,51 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- Certificates -->
+                <!-- <div class="projects__content grid" data-content id="certificates">
+                    <article class="projects__card">
+                        <img src="/assets/img/certificate.jpeg" alt="projectPhoto" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Coderhouse</span>
+                                <h3 class="projects__title">UX/UI Design Advanced</h3>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="projects__card">
+                        <img src="/assets/img/certificate.jpeg" alt="projectPhoto" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Coderhouse</span>
+                                <h3 class="projects__title">Desarrollo Web</h3>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="projects__card">
+                        <img src="/assets/img/certificate.jpeg" alt="projectPhoto" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Coderhouse</span>
+                                <h3 class="projects__title">Photoshop & Illustrator</h3>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="projects__card">
+                        <img src="/assets/img/certificate.jpeg" alt="projectPhoto" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Coderhouse</span>
+                                <h3 class="projects__title">UX/UI design</h3>
+                            </div>
+                        </div>
+                    </article>
+                </div> -->
             </div>
-        </section>   
+        </section>
     </main>
-
-    <!-- footer -->
     <footer class="footer container">
-        <span class="footer__copy">Get in touch with me</span>
+        <span class="footer_copy">Get in touch with me</span>
     </footer>
-    <!-- JS -->
-    <script src="assets/js/main.js"></script> 
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>
